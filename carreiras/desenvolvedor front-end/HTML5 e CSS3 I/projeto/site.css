@@ -1,0 +1,35 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #851944;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquotes {
+    background-color: #D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+}
+
+footer {
+    background-color: #000000
+}
+
+footer, nav a {
+    color: #F2FFFC;
+}
+
