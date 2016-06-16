@@ -15,6 +15,7 @@ blockquote {
     border: 10px solid #C2CCCA;
     width: 250px;
     box-sizing: border-box;
+    margin: 20px 40px;
 }
 
 main > h1 {
@@ -23,6 +24,11 @@ main > h1 {
     color: #FFF;
     padding: 25px;
     border-bottom: 10px solid #000;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 main a {
@@ -32,6 +38,7 @@ main a {
 
 p { 
     text-align: justify;
+    margin: 20px 0;
 }
 
 aside {
@@ -46,7 +53,12 @@ aside a {
     text-decoration: none;
 }
 
-footer {
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.rodape {
     background-color: #000;
     color: #F2FFFC;
 }
@@ -57,7 +69,26 @@ footer {
     padding: 20px;
 }
 
-div {
+main div {
     width: 720px;
     margin: auto;
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-redes-sociais li {  
+    display: inline-block;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
