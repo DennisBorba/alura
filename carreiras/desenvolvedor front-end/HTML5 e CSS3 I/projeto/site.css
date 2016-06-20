@@ -27,6 +27,10 @@ blockquote {
     font-size: 60px;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h2 {
     font-size: 30px;
 }
@@ -51,6 +55,7 @@ p {
     color: inherit;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     text-decoration: none;
+    text-transform: lowercase;
 }
 
 .navegacao h1 {
@@ -85,6 +90,25 @@ em {
 
 .icones-redes-sociais li {  
     display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
 
 article {
