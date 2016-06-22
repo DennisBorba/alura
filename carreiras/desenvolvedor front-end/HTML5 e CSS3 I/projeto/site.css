@@ -125,3 +125,11 @@ article {
     text-align: center;
     background-color: #E6E7E8;
 }
+
+.fiat-quote {
+    float: right;
+}
+
+.petrobras-quote {
+    float: left;
+}
