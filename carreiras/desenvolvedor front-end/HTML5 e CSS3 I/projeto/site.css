@@ -33,6 +33,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 main a {
@@ -132,4 +133,22 @@ article {
 
 .petrobras-quote {
     float: left;
+}
+
+main {
+    width: 80%;
+    float: left;
+}
+
+img,
+aside {
+    width: 20%;
+    float: right;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
 }
