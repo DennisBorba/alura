@@ -7,16 +7,16 @@ body {
 
 h1,
 h2,
-h5 {
+.subtitulo-principal {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 h1 {
     text-transform: uppercase;
+    font-size: 60px;
 }
 
 .titulo-principal {
-    font-size: 60px;;
     text-align: center;
     background-color: #851944;
     color: #FFF;
@@ -33,7 +33,7 @@ main a {
     color: #851944;
 }
 
-p {
+main p {
     text-align: justify;
     margin: 20px 0;
 }
@@ -66,9 +66,6 @@ p {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    background-image: url(../img/eu-ico-small.png);
-    background-position: 99% center;
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -98,15 +95,15 @@ em {
 }
 
 .github {
-    background-image: url(../img/github.png);
+    background-image: url(../imagens/github.png);
 }
 
 .twitter {
-    background-image: url(../img/twitter.png);
+    background-image: url(../imagens/twitter.png);
 }
 
 .linkedin {
-    background-image: url(../img/linkedin.png);
+    background-image: url(../imagens/linkedin.png);
 }
 
 main {
@@ -126,11 +123,12 @@ main {
     width: 20%;
     float: right;
     position: relative;
-    top: 310px;
+    top: 300px;
 }
 
 .minha-foto {
     position: absolute;
     top: 0;
     right: 0;
+    height: 300px;
 }
