@@ -1,12 +1,16 @@
 .foto-home {
     height: 200px;
 }
+.saudacao {
+    padding: 1rem 6.5rem;
+}
 .saudacao p {
     color: #99A;
     line-height: 1;
 }
 .saudacao-inicio {
     color: #889;
+    font-size: 4rem;
 }
 .saudacao-ultima-linha {
     text-align: right;
@@ -14,17 +18,21 @@
 }
 .saudacao strong {
     color: #000;
+    font-size: 3rem;
 }
 .saudacao em {
     color: #851944;
+    font-size: 4rem;
 }
 .botao-index {
     background-color: #851944;
     color: #FFF;
     border: .2em solid black;
-    width: 400px;
+    width: 20em;
     display: block;
     text-align: center;
+    margin: 2em auto;
+    padding: .4em .3em;
 }
 .secao-inicio h2 {
     text-transform: uppercase;
@@ -36,6 +44,7 @@
 }
 .trabalhos h2 {
     color: #FFF;
+    font-size: 2rem;
 }
 .trabalhos ul {
     overflow: hidden;
