@@ -1,10 +1,7 @@
-html {
-    font-size: 1rem;
-}
-
 body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC;
+    font-size: 120%;
     line-height: 1.5;
 }
 
@@ -16,19 +13,19 @@ h2,
 
 h1 {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .titulo-principal {
     text-align: center;
     background-color: #851944;
     color: #FFF;
-    padding: 1.3rem;
+    padding: 2rem;
     border-bottom: .5rem solid #000;
 }
 
 .subtitulo-texto {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     clear: both;
 }
 
@@ -38,14 +35,14 @@ main a {
 
 main p {
     text-align: justify;
-    margin: 1rem 0;
+    margin: 1em 0;
 }
 
 .navegacao-site {
     text-align: center;
     background-color: #3C1D3D;
     color: #F2FFFC;
-    padding: 3ch;
+    padding: 1em;
 }
 
 .navegacao-site a {
@@ -55,14 +52,14 @@ main p {
 }
 
 .navegacao-site h1 {
-    font-size: 1.50rem;
-    margin-bottom: 0.50em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
-    padding: 2ch;
+    padding: 1em;
     clear: both;
     position: fixed;
     bottom: 0;
@@ -72,10 +69,10 @@ main p {
 }
 
 .container {
-    width: 60%;
+    width: 80ch;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5rem 0;
+    padding: 1.5em 0;
 }
 
 strong {
@@ -112,13 +109,13 @@ em {
 main {
     width: 80%;
     float: left;
-    padding-bottom: 4rem;
+    padding-bottom: 4em;
 }
 
 .minha-foto,
 .navegacao-site {
-    border-left: 0.5rem solid black;
-    border-bottom: 0.5rem solid black;
+    border-left: .5em solid black;
+    border-bottom: .5em solid black;
     box-sizing: border-box;
 }
 
