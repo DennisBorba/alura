@@ -66,6 +66,7 @@
     background-color: #999;
     color: #FFF;
     border-bottom: .5em solid #851944;
+    position: relative;
 }
 .blog small {
     position: relative;
@@ -75,6 +76,15 @@
     color: #FCF;
     padding: .5em;
     display: block;
+}
+.inicio-post {
+    color: #000;
+    background-color: #FFF;
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
 }
 footer {
     background-color: #000;
