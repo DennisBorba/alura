@@ -1,0 +1,25 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DennisBorba/alura.git"
+  },
+  "author": "DennisBorba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisBorba/alura/issues"
+  },
+  "homepage": "https://github.com/DennisBorba/alura#readme",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-load": "^1.1.15",
+    "mysql": "^2.11.1"
+  }
+}
