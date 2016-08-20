@@ -7,5 +7,5 @@ ProdutosDAO.prototype.lista = function(callback) {
 };
 
 module.exports = function() {
-  return ProdutosDAO;
+  return ProdutosDAO;  
 };

@@ -8,5 +8,9 @@ module.exports = function(app) {
 	});
 	  
 	connection.end();
-  });	
+  });
+  
+  app.get('/produtos/form', (request, response) => {
+    response.render('produtos/form');
+  });
 };
