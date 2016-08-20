@@ -10,7 +10,21 @@ module.exports = function(app) {
 	connection.end();
   });
   
-  app.get('/produtos/form', (request, response) => {
+  app.get('/produtos/form', function(request, response) {
     response.render('produtos/form');
+  });
+  
+  app.post('/produtos/salva', function(request, response) {
+    var produto = request.body;
+    
+    var connection = app.infra.connectionFactory();	
+	var produtosDAO = new app.infra.ProdutosDAO(connection);
+    
+    produtosDAO.salva(produto, function(error, result) {
+      console.log(result);
+      response.render('produtos/lista');  
+    });
+    
+    connection.end();
   });
 };
