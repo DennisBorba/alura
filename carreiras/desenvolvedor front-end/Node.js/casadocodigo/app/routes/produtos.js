@@ -14,7 +14,7 @@ module.exports = function(app) {
     response.render('produtos/form');
   });
   
-  app.post('/produtos/salva', function(request, response) {
+  app.post('/produtos', function(request, response) {
     var produto = request.body;
     
     var connection = app.infra.connectionFactory();	
