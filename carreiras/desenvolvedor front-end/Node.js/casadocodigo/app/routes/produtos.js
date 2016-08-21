@@ -30,7 +30,15 @@ module.exports = function(app) {
     var errors = request.validationErrors();
     
     if(errors) {
-      response.render('produtos/form', {validationErrors: errors, produto: produto});
+      response.format({
+        html: function() {
+          response.status(400).render('produtos/form', {validationErrors: errors, produto: produto});
+        },
+        json: function() {
+          response.status(400).json(errors);
+        }
+      });
+      
       return;
     }
     
