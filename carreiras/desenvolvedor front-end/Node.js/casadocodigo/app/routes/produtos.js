@@ -18,7 +18,7 @@ module.exports = function(app) {
   });
   
   app.get('/produtos/form', function(request, response) {
-    response.render('produtos/form', {validationErrors: {}});
+    response.render('produtos/form', {validationErrors: {}, produto: {}});
   });
   
   app.post('/produtos', function(request, response) {
@@ -30,7 +30,7 @@ module.exports = function(app) {
     var errors = request.validationErrors();
     
     if(errors) {
-      request.render('produtos/form', {validationErrors: errors});
+      response.render('produtos/form', {validationErrors: errors, produto: produto});
       return;
     }
     
