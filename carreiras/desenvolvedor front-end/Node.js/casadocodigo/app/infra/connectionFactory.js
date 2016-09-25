@@ -1,7 +1,9 @@
 var mysql = require('mysql');
 
 function createDBConnection() {
-  if(!process.env.NODE_ENV) {
+  var env = '' + process.env.NODE_ENV + '';
+  
+  if(!env) {
     return mysql.createConnection({
       host: 'localhost',
       user: 'root',
@@ -10,7 +12,7 @@ function createDBConnection() {
     });
   }
   
-  if(process.env.NODE_ENV == 'test') {
+  if(env == 'test') {
     return mysql.createConnection({
       host: 'localhost',
       user: 'root',
