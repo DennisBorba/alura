@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "express-load": "^1.1.15",
     "express-validator": "^2.20.8",
     "mysql": "^2.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
   }
 }
