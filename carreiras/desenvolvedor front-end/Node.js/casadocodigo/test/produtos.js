@@ -38,7 +38,7 @@ describe('#ProdutosController', function() {
  To run the test in a test base:
  Windows: set NODE_ENV=test && node node_modules/mocha/bin/mocha
  
- Or once:
+ Or once (when open a CLI):
  set NODE_ENV=test
  
  After:
