@@ -18,6 +18,20 @@ module.exports = function() {
   load('routes', {cwd: 'app'})
   	.then('infra')
     .into(app);
-	
+  
+  /* Middlewares */
+  app.use(function(request, response, next) {
+    response.status(404).render('errors/404');
+    next();
+  });
+  
+  app.use(function(error, request, response, next) {
+    if(process.env.NODE_ENV != 'dev' && process.env.NODE_ENV != 'test') {
+      response.status(500).render('errors/500');
+      return;
+    }
+    next(error);
+  });
+  
   return app;
 };
