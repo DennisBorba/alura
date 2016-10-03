@@ -4,7 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "mocha"
+  },
+  "engines": {
+  "node": "5.0.0"
   },
   "repository": {
     "type": "git",

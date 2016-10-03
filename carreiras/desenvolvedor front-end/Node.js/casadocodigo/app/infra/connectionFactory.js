@@ -20,6 +20,19 @@ function createDBConnection() {
       database: 'casadocodigo_nodejs_test'
     });
   }
+  
+  if (process.env.NODE_ENV == 'production') {
+    /* after deploy on heroku */
+    var url = process.env.CLEARDB_DATABASE_URL;
+    var environmentVars = url.match(/mysql:\/\/(.*):(.*)@(.*)\/(.*)\?/);
+    
+    return mysql.createConnection({
+      host: environmentVars[3],
+      user: environmentVars[1],
+      password: environmentVars[2],
+      database: environmentVars[4]
+    });
+  }
 };
 
 module.exports = function() {
