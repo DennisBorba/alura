@@ -1,16 +1,24 @@
 body {
 	background-color: #F2FFFC;
 	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 main h1 {
 	background-color: #851944;
     color: #FFF;
 	text-align: center;
+	padding: 25px;
+	border-bottom: 10px solid #000000;
 }
 
-h1, h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+main > div {
+	width: 720px;
+	margin: auto;
 }
 
 p {
@@ -20,6 +28,22 @@ p {
 
 blockquote {
 	background-color: #D9E5E3;
+	margin: 0;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box; /* o tamanho e a largura passar a ser medido na borda do elemento. No Default eh medido no seu conteudo (dentro do padding) */
+}
+
+aside nav {
+	text-align: center;
+}
+
+main a {
+	color: #851944;
+}
+
+a {
+	text-decoration: none; /* retirar sublinhado de links */
 }
 
 aside nav {
@@ -28,9 +52,17 @@ aside nav {
 
 body > footer {
 	background-color: #000000;
+}
 
+blockquote, aside nav, body > footer {
+	padding: 20px;
 }
 
 aside nav, body > footer {
 	color: #F2FFFC;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
 }
