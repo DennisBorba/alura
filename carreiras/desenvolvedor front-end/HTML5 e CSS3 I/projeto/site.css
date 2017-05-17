@@ -14,21 +14,28 @@ main h1 {
 	text-align: center;
 	padding: 25px;
 	border-bottom: 10px solid #000000;
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
 }
 
 main > div {
 	width: 720px;
 	margin: auto;
+	padding: 30px 0;
 }
 
 p {
 	text-align: justify;
 	font-family: "Crimson Text", "Times New Roman", serif;
+	margin: 20px 0;
 }
 
 blockquote {
 	background-color: #D9E5E3;
-	margin: 0;
+	margin: 20px 40px;
     border: 10px solid #C2CCCA;
     width: 250px;
     box-sizing: border-box; /* o tamanho e a largura passar a ser medido na borda do elemento. No Default eh medido no seu conteudo (dentro do padding) */
@@ -36,6 +43,11 @@ blockquote {
 
 aside nav {
 	text-align: center;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 
 main a {
@@ -65,4 +77,12 @@ aside nav, body > footer {
 aside a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
 }
